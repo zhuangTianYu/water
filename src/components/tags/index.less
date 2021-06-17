@@ -1,0 +1,42 @@
+.tags {
+
+  &__item {
+    padding-left: 10px;
+    color: #595959;
+    font-size: 0;
+    line-height: 32px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    box-shadow: 0 2px #00000004;
+    user-select: none;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__chinese-name,
+  &__tag-name,
+  &__connector {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  &__chinese-name {
+    width: 56px;
+    font-size: 14px;
+    text-align-last: justify;
+  }
+  
+  &__connector {
+    width: 30px;
+    height: 1px;
+    background-color: #8c8c8c;
+    margin: 0 4px 0 6px;
+  }
+  
+  &__tag-name {
+    font-size: 12px;
+  }
+}

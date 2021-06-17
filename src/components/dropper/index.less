@@ -1,0 +1,21 @@
+.dropper {
+  position: relative;
+
+  &--overing {
+    box-shadow: 0 0 6px #d9d9d9;
+  }
+
+  &--empty::after {
+    content: '将右侧标签拖入以绘制画布';
+    color: #d9d9d9;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  // * {
+  //   pointer-events: none;
+  // }
+}
